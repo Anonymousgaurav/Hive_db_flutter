@@ -1,6 +1,7 @@
+<img width="341" alt="image" src="https://user-images.githubusercontent.com/26230006/189473368-f42e3c6c-d5bc-48cb-a3ae-9d3b1ec4afc4.png">
 
 
-1.First import hive. At that point, add ‘data_model.g.dart’ as a section (this is where the type adapter is generated).
+1. First import hive. At that point, add ‘data_model.g.dart’ as a section (this is where the type adapter is generated).
 Clarify the model class with @HiveType(), so the generator realizes this should be a TypeAdapter. 
 Annotate on each field you need to save with @HiveField(index), the index is an int, and each index ought to show up once, 
 and you shouldn’t transform it in the wake of enlisting them. 
